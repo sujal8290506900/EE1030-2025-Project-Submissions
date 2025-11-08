@@ -1,0 +1,32 @@
+\begin{table}[H]
+\centering
+\caption{ Frobenius Norm and Relative Error for Different $k$ Values}
+\renewcommand{\arraystretch}{1.2} % better row spacing
+\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{Image} & \textbf{$\|A\|_F$} & \textbf{$k$} & \textbf{Relative Error $\frac{\|A - A_k\|_F}{\|A\|_F}$} \\
+\hline
+\multirow{4}{*}{Einstein} 
+ & \multirow{4}{*}{85.525896} 
+ & 5   & 0.214678 \\
+ &     & 20  & 0.097435 \\
+ &     & 50  & 0.040337 \\
+ &     & 100 & 0.007528 \\
+\hline
+\multirow{4}{*}{Globe} 
+ & \multirow{4}{*}{620.83329} 
+ & 5   & 0.124900 \\
+ &     & 20  & 0.066580 \\
+ &     & 50  & 0.038677 \\
+ &     & 100 & 0.022896 \\
+\hline
+\multirow{4}{*}{Gray} 
+ & \multirow{4}{*}{760.054804} 
+ & 5   & 0.056759 \\
+ &     & 20  & 0.018263 \\
+ &     & 50  & 0.005549 \\
+ &     & 100 & 0.002944 \\
+\hline
+\end{tabular}
+\label{tab:frobenius_error_table}
+\end{table}
